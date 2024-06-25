@@ -2,18 +2,23 @@ body{
     background-color: #003;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 90vh;
+    color: #fff;
+}
+div{
+    width: 95%;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 form{
     background-color: #007;
-    padding: 10px;
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
 }
-form input{
+input{
     background-color: #0000aaa0;
     border: none;
     outline: none;
@@ -22,12 +27,21 @@ form input{
     flex-basis: 220px;
     flex-grow: 1;
 }
-form button{
+button{
     background-color: #14b;
     border: none;
     color: #fff;
     cursor: pointer;
     padding: 5px 10px;
-    flex-basis: 30px;
     flex-grow: 1;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #16f;
+}
+a:hover{
+    color: #00f;
 }
