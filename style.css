@@ -13,3 +13,21 @@ form{
     flex-wrap: wrap;
     gap: 5px;
 }
+form input{
+    background-color: #0000aaa0;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    flex-basis: 220px;
+    flex-grow: 1;
+}
+form button{
+    background-color: #14b;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+    flex-basis: 30px;
+    flex-grow: 1;
+}
