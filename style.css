@@ -17,9 +17,13 @@ div{
 form{
     background-color: #007;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 input{
-    background-color: #0000aaa0;
+    background-color: #00aa;
     border: none;
     outline: none;
     color: white;
@@ -34,6 +38,13 @@ button{
     cursor: pointer;
     padding: 5px 10px;
     flex-grow: 1;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #14d;
+
+}button:active{
+    transform: scale(0.9);
 }
 p{
     text-align: center;
